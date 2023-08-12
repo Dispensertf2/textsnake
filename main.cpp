@@ -100,7 +100,7 @@ int main(void)
         if (frameCounter >= (fpsCap/gameSpeed)) {
             
             frameCounter = 0;
-            std::cout << applePos.x << " " << applePos.y << "\n";
+            
             
             if (applePos.x == 0) {
                 applePos.x += 8;
